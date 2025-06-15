@@ -87,3 +87,38 @@
         }
     }
 }
+
+.s-boost {
+    padding-top: 11.2rem;
+    padding-bottom: 6.7rem;
+    .container {
+        display: flex;
+        align-items: flex-start;
+    }
+    .left {
+        flex: 1;
+        max-width: 27rem;
+        .mockup {
+            width: 100%;
+            height: 56.5rem;
+            margin-bottom: 13.5rem;
+            img {
+                max-width: initial;
+                position: relative;
+                top: -39px;
+                left: -49px;
+            }
+        }
+        .description {
+            text-align: center;
+            h3 {
+                color: var(--GRAY-800);
+                font-size: 2.4rem;
+                font-weight: 600;
+                line-height: 150%;
+                letter-spacing: -0.5px;
+                margin-top: 2.5rem;
+            }
+        }
+    }
+}
